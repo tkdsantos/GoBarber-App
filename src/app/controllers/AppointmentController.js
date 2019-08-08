@@ -58,6 +58,12 @@ class AppointmentController {
       where: { id: provider_id, provider: true },
     });
 
+    if (req.userId === provider_id) {
+      return res
+        .status(401)
+        .json({ error: 'You can not make an appointment with you' });
+    }
+
     if (!isProvider) {
       return res
         .status(401)
