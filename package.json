@@ -14,7 +14,7 @@
     "date-fns": "^2.0.0-beta.4",
     "express": "^4.17.1",
     "express-async-error": "^0.0.2",
-    "express-handlebars": "^3.1.0",
+    "express-handlebars": "^5.3.1",
     "fns": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.6.8",
